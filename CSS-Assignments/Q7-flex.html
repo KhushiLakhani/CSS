@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .row
+        {
+            justify-content: space-evenly;
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card
+        {
+            background-color: aqua;
+            flex-basis: 450px;
+        }
+        .btn
+        {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+            justify-content: space-around;
+        }
+        .btn1
+        {
+            width: 100%;
+            margin-top: 10px;
+        }
+        button
+        {
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+            <div class="card">
+                <h2>First article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam, quidem laborum autem, nam fuga natus perspiciatis ut, earum aspernatur voluptas nobis ipsam ad maiores iusto quas esse quasi enim!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt fugiat nobis ullam possimus minus voluptatibus quod. Ab dolores voluptate quia nam tenetur illum nisi consequatur cupiditate, facere quam minus laborum.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Second article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam, quidem laborum autem, nam fuga natus perspiciatis ut, earum aspernatur voluptas nobis ipsam ad maiores iusto quas esse quasi enim!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt fugiat nobis ullam possimus minus voluptatibus quod. Ab dolores voluptate quia nam tenetur illum nisi consequatur cupiditate, facere quam minus laborum.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="btn">
+                    <button>Smile</button>
+                    <button>Laugh</button>
+                    <button>Wink</button>
+                    <button>Shrug</button>
+                </div>
+                <button class="btn1">Blush</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam, quidem laborum autem, nam fuga natus perspiciatis ut, earum aspernatur voluptas nobis ipsam ad maiores iusto quas esse quasi enim!<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt fugiat nobis ullam possimus minus voluptatibus quod. Ab dolores voluptate quia nam tenetur illum nisi consequatur cupiditate, facere quam minus laborum.
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
